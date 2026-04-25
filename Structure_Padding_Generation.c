@@ -13,7 +13,7 @@ int main()
 {
     struct Demo dobj;
 
-    printf("Size of object of Structure Demo is %d\n",sizeof(dobj));
+    printf("Size of object of Structure Demo is %d\n",sizeof(dobj));           //12 bytes //Padding generated
 
     return 0;
 }
